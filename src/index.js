@@ -204,7 +204,7 @@
     }
     function checkIntercomState(){
         if (localStorage.getItem(`intercom-triggered`) !== null) {
-            loadChat(true);
+            loadChat(false);
         }}
         checkIntercomState();
   })(window.intercomSettings)
