@@ -185,6 +185,7 @@
     region.append(launcher);
     region.addEventListener("click", function () {
       loadChat(true);
+      localStorage.setItem('intercom-triggered', 'triggered');
     });
     region.addEventListener("mouseenter", function () {
       loadChat(false);
@@ -202,7 +203,7 @@
         });
     }
     function checkIntercomState(){
-        if (localStorage.getItem(`intercom.intercom-state-${appId}`) !== null) {
+        if (localStorage.getItem(`intercom-triggered`) !== null) {
             loadChat(true);
         }}
         checkIntercomState();
