@@ -67,7 +67,7 @@
       return true;
     };
     var logoHtml = `
-    <img src="https://downloads.intercomcdn.com/i/o/340751/968ef2e734c433100737dc2d/c1d4abe9a147267b45d699d7fa8a6a51.png" alt="" class="intercom-lightweight-app-launcher-custom-icon-open">
+    <img style="max-width: 36px; max-height: 36px;" src="https://downloads.intercomcdn.com/i/o/340751/968ef2e734c433100737dc2d/c1d4abe9a147267b45d699d7fa8a6a51.png" alt="" class="intercom-lightweight-app-launcher-custom-icon-open">
   `;
     var logo = buildElement(
       {
