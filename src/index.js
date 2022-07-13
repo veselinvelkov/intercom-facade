@@ -80,8 +80,6 @@
         top: "0px",
         bottom: "0px",
         width: "100%",
-        maxHeight: "36px",
-        maxWidth: "36px",
         transform: "rotate(0deg) scale(1)",
         transition: "transform 0.16s linear 0s, opacity 0.08s linear 0s",
       },
